@@ -48,7 +48,7 @@ export default function Generator(props) {
     }
 
     return (
-        <SectionWrapper title={['They', 'don\'t', 'know', 'you', 'Son']}>
+        <SectionWrapper id={'generate'} title={['They', 'don\'t', 'know', 'you', 'Son']}>
             <Header index={'01'} title={'What\'s the split today?'} description={'Select a workout.'} />
             <div className='grid grid-cols-2 sm:grid-cols-4 gap-4'>
                 {Object.keys(WORKOUTS).map((type, typeIndex) => {

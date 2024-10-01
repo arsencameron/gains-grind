@@ -16,6 +16,8 @@ function App() {
     }
     let newWorkout = generateWorkout({ split, muscles, goal })
     setWorkout(newWorkout)
+
+    window.location.href = '#workout'
   }
 
   return (

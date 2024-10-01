@@ -8,7 +8,9 @@ export default function Hero() {
                 <h1 className='uppercase font-semibold text-4xl sm:text-5xl md:text-6xl lg:text-7xl'>gains<span className='text-red-500'>grind</span></h1>
                 <p>By Arsen Cameron</p>
             </div>
-            <Button text={"Lock in"}></Button>
+            <Button func={() => {
+                window.location.href = '#generate'
+            }} text={"Lock in"}></Button>
         </div>
     )
 }
